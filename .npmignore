@@ -1,0 +1,10 @@
+test
+src
+.editorconfig
+.babelrc
+.prettierrc
+.travis.yml
+rollup.config.js
+yarn.lock
+coverage
+.nyc_output

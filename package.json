@@ -1,0 +1,42 @@
+{
+  "name": "color-contrast",
+  "description":
+    "performance-sensitive wcag contrast ratio calculation between two colors",
+  "version": "0.0.0",
+  "author": "Jeff Escalante",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/jescalan/color-contrast/issues",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-preset-env": "^1.7.0",
+    "codecov": "^2.1.0",
+    "husky": "^0.14.3",
+    "nyc": "^10.2.0",
+    "prettier": "^1.5.3",
+    "rollup": "^0.60.0",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "homepage": "https://github.com/jescalan/color-contrast",
+  "license": "MIT",
+  "main": "dist",
+  "module": "dist/index.ems.js",
+  "repository": "jescalan/color-contrast",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "codecov": "nyc report -r lcovonly && codecov",
+    "coverage":
+      "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
+    "precommit": "pretty-quick --staged",
+    "test": "nyc ava"
+  },
+  "dependencies": {
+    "onecolor": "^3.0.5"
+  }
+}
