@@ -26,7 +26,7 @@
   "homepage": "https://github.com/jescalan/color-contrast",
   "license": "MIT",
   "main": "dist",
-  "module": "dist/index.ems.js",
+  "module": "dist/index.esm.js",
   "repository": "jescalan/color-contrast",
   "scripts": {
     "build": "rollup -c rollup.config.js",
