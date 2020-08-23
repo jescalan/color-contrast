@@ -7,8 +7,6 @@
 
 Performance-sensitive WCAG contrast ratio calculation.
 
-> **Note:** This project is in early development, and versioning is a little different. [Read this](http://markup.im/#q4_cRZ1Q) for more details.
-
 ### Why should you care?
 
 There are several projects that give you the contrast ratio, but I was unable to find any that didn't have too many dependencies to be viable for performance-conscious browser use and were also wcag-compliant. This one is both. It's ~5kb gzipped, and supports all color formats supported by css, so no need to run any type of color conversions in or out.
