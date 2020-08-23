@@ -11,7 +11,7 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "babel-preset-env": "^1.7.0",
-    "codecov": "^2.1.0",
+    "codecov": "^3.7.1",
     "husky": "^0.14.3",
     "nyc": "^10.2.0",
     "prettier": "^1.5.3",
