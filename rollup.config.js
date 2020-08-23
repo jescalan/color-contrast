@@ -5,8 +5,8 @@ import babel from 'rollup-plugin-babel'
 export default {
   input: 'src/index.js',
   output: [
-    { file: 'dist/index.js', format: 'cjs' },
-    { file: 'dist/index.esm.js', format: 'es' }
+    { file: 'dist/index.js', format: 'cjs', exports: 'default' },
+    { file: 'dist/index.esm.js', format: 'es' },
   ],
-  plugins: [nodeResolve(), commonjs(), babel()]
+  plugins: [nodeResolve(), commonjs(), babel()],
 }
